@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Counter</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>Smart Counter Dashboard</h1>
+        <button id="themeToggle">🌙</button>
+    </header>
+
+    <!-- Counter Display -->
+    <div class="counter-box">
+        <h2 id="count">0</h2>
+        <p>Current Value</p>
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+        <button id="decrease">-</button>
+        <button id="increase">+</button>
+        <button id="reset">Reset</button>
+    </div>
+
+    <!-- Extra Controls -->
+    <div class="advanced">
+        <input type="number" id="customValue" placeholder="Enter value">
+        <button id="addCustom">Add Value</button>
+    </div>
+
+    <!-- History -->
+    <div class="history">
+        <h3>History</h3>
+        <ul id="historyList"></ul>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
